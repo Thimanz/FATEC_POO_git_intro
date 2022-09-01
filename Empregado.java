@@ -22,10 +22,16 @@ public class Empregado{
     public String getNome() {
         return nome;
     }
+    public int getTipo() {
+        return tipo;
+    }
     public void setIdade(int idade) {
         this.idade = idade;
     }
     public void setNome(String nome) {
         this.nome = nome;
+    }
+    public void setTipo(int tipo) {
+        this.tipo = tipo;
     }
 }
